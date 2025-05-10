@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-095",
+  "Name": "Assistant Evolution Logger",
+  "Domain": "GROW",
+  "Purpose": "Chronologically records how assistants evolve over time across versions and behaviors.",
+  "Input": "changelog.md, instruction_versions/",
+  "Output": "evolution_timeline.md",
+  "Trigger": "Weekly snapshot",
+  "CLI_File": "ta095_log_evolution.sh",
+  "Path": "ta-registry/TA-095/"
+}

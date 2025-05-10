@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-085",
+  "Name": "Instruction Branch Comparator",
+  "Domain": "OPS",
+  "Purpose": "Compares main vs. feature branch instruction sets before merge.",
+  "Input": "main_instruction.md, feature_instruction.md",
+  "Output": "diff_summary.json",
+  "Trigger": "On pull request or review",
+  "CLI_File": "ta085_compare_instruction_branches.sh",
+  "Path": "ta-registry/TA-085/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-065",
+  "Name": "Autonomy Flag Evaluator",
+  "Domain": "AUTO",
+  "Purpose": "Determines whether an assistant should continue autonomously or wait for user approval.",
+  "Input": "task_type, risk_profile.json",
+  "Output": "autonomy_granted: true/false",
+  "Trigger": "Pre-execution decision gate",
+  "CLI_File": "ta065_eval_autonomy_flag.sh",
+  "Path": "ta-registry/TA-065/"
+}

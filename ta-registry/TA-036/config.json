@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-036",
+  "Name": "Output Tone Profiler",
+  "Domain": "LOG",
+  "Purpose": "Analyzes assistant tone, formality, and emotional weight per response.",
+  "Input": "assistant_outputs/",
+  "Output": "tone_profile.json",
+  "Trigger": "Post-run NLP pass",
+  "CLI_File": "ta036_tone_profiler.sh",
+  "Path": "ta-registry/TA-036/"
+}

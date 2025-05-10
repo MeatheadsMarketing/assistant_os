@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-068",
+  "Name": "Agent Delegator",
+  "Domain": "AUTO",
+  "Purpose": "Delegates subtasks to other assistants based on a task-to-role matching map.",
+  "Input": "task.json, agent_registry.json",
+  "Output": "delegation_log.json",
+  "Trigger": "On task fork or role mismatch",
+  "CLI_File": "ta068_delegate_to_agent.sh",
+  "Path": "ta-registry/TA-068/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-042",
+  "Name": "Vector DB Uploader",
+  "Domain": "RAG",
+  "Purpose": "Uploads generated embeddings into a vector database like Pinecone or Chroma.",
+  "Input": "embedding.json, metadata.json",
+  "Output": "vector_db_response.json",
+  "Trigger": "Post-embedding",
+  "CLI_File": "ta042_upload_vector_db.sh",
+  "Path": "ta-registry/TA-042/"
+}

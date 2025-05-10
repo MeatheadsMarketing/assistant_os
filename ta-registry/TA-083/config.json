@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-083",
+  "Name": "Assistant Rollback Engine",
+  "Domain": "OPS",
+  "Purpose": "Automatically rolls back assistant behavior to the last known good version upon failure or flagged behavior.",
+  "Input": "instruction_version_log.json",
+  "Output": "rollback_status, restored_version",
+  "Trigger": "Post-run failure or manual rollback",
+  "CLI_File": "ta083_rollback_instruction.sh",
+  "Path": "ta-registry/TA-083/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-077",
+  "Name": "Access Log Auditor",
+  "Domain": "SEC",
+  "Purpose": "Audits every assistant's file, memory, and tool access with timestamps.",
+  "Input": "execution_context.json",
+  "Output": "access_audit_log.json",
+  "Trigger": "Every run",
+  "CLI_File": "ta077_log_access_audit.sh",
+  "Path": "ta-registry/TA-077/"
+}

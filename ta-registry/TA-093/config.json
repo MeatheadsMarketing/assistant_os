@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-093",
+  "Name": "Assistant A/B Tester",
+  "Domain": "GROW",
+  "Purpose": "Compares performance of two instruction variants to measure behavioral improvements.",
+  "Input": "variant_A.md, variant_B.md, input_set/",
+  "Output": "test_results.json, winner.md",
+  "Trigger": "Controlled experiment",
+  "CLI_File": "ta093_run_ab_test.sh",
+  "Path": "ta-registry/TA-093/"
+}

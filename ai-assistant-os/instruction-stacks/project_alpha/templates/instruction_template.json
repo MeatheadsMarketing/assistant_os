@@ -1,0 +1,6 @@
+{
+  "injection_points": {
+    "### SHARED LOGIC": "core_rules.md",
+    "### ROLE LOGIC": "role_overlays/{role}.md"
+  }
+}

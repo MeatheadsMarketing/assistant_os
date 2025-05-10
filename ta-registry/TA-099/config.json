@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-099",
+  "Name": "Meta-Assistant Evaluator",
+  "Domain": "GROW",
+  "Purpose": "Evaluates all assistants across the OS for health, drift, usage, and output quality.",
+  "Input": "assistant_registry.json, logs/",
+  "Output": "meta_scorecard.md",
+  "Trigger": "Weekly or manual request",
+  "CLI_File": "ta099_evaluate_assistant_os.sh",
+  "Path": "ta-registry/TA-099/"
+}

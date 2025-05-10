@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-087",
+  "Name": "GitOps Deploy Annotator",
+  "Domain": "OPS",
+  "Purpose": "Tags Git commits with deployment-specific metadata for assistants.",
+  "Input": "commit_hash, deploy_target",
+  "Output": "deploy_tag.json",
+  "Trigger": "CI pipeline",
+  "CLI_File": "ta087_annotate_git_deploy.sh",
+  "Path": "ta-registry/TA-087/"
+}

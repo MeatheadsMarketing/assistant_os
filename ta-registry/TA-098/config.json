@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-098",
+  "Name": "Top Drift Contributors Analyzer",
+  "Domain": "GROW",
+  "Purpose": "Identifies which inputs, memory keys, or instruction changes caused the most behavioral drift.",
+  "Input": "drift_logs.json",
+  "Output": "ranked_contributors.md",
+  "Trigger": "Post-drift scan",
+  "CLI_File": "ta098_rank_drift_factors.sh",
+  "Path": "ta-registry/TA-098/"
+}

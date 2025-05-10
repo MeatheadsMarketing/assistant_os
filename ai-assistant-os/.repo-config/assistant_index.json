@@ -1,0 +1,8 @@
+{
+  "project_alpha": {
+    "summarizer": {
+      "path": "instruction-stacks/project_alpha/sub_roles/summarizer.md",
+      "version_pattern": "v{major}.{minor}.{patch}"
+    }
+  }
+}

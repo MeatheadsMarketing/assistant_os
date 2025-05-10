@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-073",
+  "Name": "PII Detector",
+  "Domain": "SEC",
+  "Purpose": "Scans assistant output for sensitive data like emails, SSNs, or payment info.",
+  "Input": "assistant_output.txt",
+  "Output": "pii_found: true/false, redacted_output.txt",
+  "Trigger": "Post-response",
+  "CLI_File": "ta073_detect_pii.sh",
+  "Path": "ta-registry/TA-073/"
+}

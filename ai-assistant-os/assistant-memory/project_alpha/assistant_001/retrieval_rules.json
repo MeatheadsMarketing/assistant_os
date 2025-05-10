@@ -1,0 +1,4 @@
+{
+  "trigger": "client decision",
+  "inject": "decision_rubric"
+}

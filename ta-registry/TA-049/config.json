@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-049",
+  "Name": "Vector Snapshot Archiver",
+  "Domain": "RAG",
+  "Purpose": "Creates snapshots of vector indexes to support rollback, export, or audit.",
+  "Input": "vector_index_id",
+  "Output": "vector_snapshot.tar.gz",
+  "Trigger": "Scheduled or on demand",
+  "CLI_File": "ta049_archive_vector_snapshot.sh",
+  "Path": "ta-registry/TA-049/"
+}

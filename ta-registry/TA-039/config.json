@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-039",
+  "Name": "Instruction Reference Mapper",
+  "Domain": "LOG",
+  "Purpose": "Traces which instruction lines are most commonly triggered or referenced.",
+  "Input": "assistant_output.txt, instruction_set.md",
+  "Output": "reference_map.json",
+  "Trigger": "Post-run analysis",
+  "CLI_File": "ta039_reference_mapper.sh",
+  "Path": "ta-registry/TA-039/"
+}

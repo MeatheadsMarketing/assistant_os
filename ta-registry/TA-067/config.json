@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-067",
+  "Name": "Self-Confidence Reporter",
+  "Domain": "AUTO",
+  "Purpose": "Estimates confidence score for assistant responses based on structural and semantic factors.",
+  "Input": "assistant_output.txt",
+  "Output": "confidence_score.json",
+  "Trigger": "Post-response, pre-log",
+  "CLI_File": "ta067_report_confidence.sh",
+  "Path": "ta-registry/TA-067/"
+}

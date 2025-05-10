@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-038",
+  "Name": "Response Length Monitor",
+  "Domain": "LOG",
+  "Purpose": "Tracks token count of assistant responses to detect bloat or truncation.",
+  "Input": "assistant_outputs/",
+  "Output": "length_stats.json",
+  "Trigger": "Post-response",
+  "CLI_File": "ta038_length_monitor.sh",
+  "Path": "ta-registry/TA-038/"
+}

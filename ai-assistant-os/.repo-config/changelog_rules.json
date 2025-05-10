@@ -1,0 +1,4 @@
+{
+  "version_commit_format": "[v{major}.{minor}.{patch}] - {date} - {author}: {change_summary}",
+  "required_fields": ["author", "change_summary"]
+}

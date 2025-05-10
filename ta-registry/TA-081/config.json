@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-081",
+  "Name": "Assistant CI Linter",
+  "Domain": "OPS",
+  "Purpose": "Runs formatting, structure, and logic lint checks on instruction stacks before merge or deploy.",
+  "Input": "instruction.md",
+  "Output": "lint_report.json",
+  "Trigger": "Pre-commit or save",
+  "CLI_File": "ta081_lint_instruction_stack.sh",
+  "Path": "ta-registry/TA-081/"
+}

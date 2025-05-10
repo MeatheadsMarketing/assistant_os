@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-078",
+  "Name": "Secure Instruction Diff Validator",
+  "Domain": "SEC",
+  "Purpose": "Checks that instruction changes are authorized and matched to changelogs.",
+  "Input": "new_instruction.md, changelog.md",
+  "Output": "validation_status.json",
+  "Trigger": "On version bump or deploy",
+  "CLI_File": "ta078_validate_instruction_diff.sh",
+  "Path": "ta-registry/TA-078/"
+}

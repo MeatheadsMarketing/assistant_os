@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-079",
+  "Name": "API Access Control Filter",
+  "Domain": "SEC",
+  "Purpose": "Grants or denies access to external APIs based on assistant role and use-case.",
+  "Input": "api_request.json, role_permissions.json",
+  "Output": "access_granted: true/false",
+  "Trigger": "Pre-tool execution",
+  "CLI_File": "ta079_filter_api_access.sh",
+  "Path": "ta-registry/TA-079/"
+}

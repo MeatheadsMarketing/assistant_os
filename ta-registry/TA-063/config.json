@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-063",
+  "Name": "Multi-Run Consensus Agent",
+  "Domain": "AUTO",
+  "Purpose": "Runs multiple versions of the same assistant and selects or merges the best result.",
+  "Input": "input.txt, run_variants/",
+  "Output": "consensus_output.txt",
+  "Trigger": "On critical task or eval",
+  "CLI_File": "ta063_run_consensus.sh",
+  "Path": "ta-registry/TA-063/"
+}

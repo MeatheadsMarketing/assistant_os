@@ -1,0 +1,9 @@
+{
+  "action": "log_execution",
+  "project": "project_alpha",
+  "assistant": "summarizer",
+  "input": "Summarize Q2 metrics",
+  "output": "Revenue +18%, churn down 4%",
+  "instruction_version": "v1.2.0",
+  "memory_used": "memory_2025-05-08.json"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-055",
+  "Name": "Tool Usage Rate Limiter",
+  "Domain": "TOOL",
+  "Purpose": "Prevents overuse of a specific tool by enforcing call thresholds.",
+  "Input": "tool_usage_log.json",
+  "Output": "rate_limit_status.json",
+  "Trigger": "Pre-tool call",
+  "CLI_File": "ta055_limit_tool_usage.sh",
+  "Path": "ta-registry/TA-055/"
+}

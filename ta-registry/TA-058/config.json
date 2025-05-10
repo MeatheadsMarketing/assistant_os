@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-058",
+  "Name": "Multi-Agent Memory Sync",
+  "Domain": "TOOL",
+  "Purpose": "Syncs shared memory updates across multiple assistants working on a common project.",
+  "Input": "update_payload.json",
+  "Output": "synchronized_memory.json",
+  "Trigger": "On memory update event",
+  "CLI_File": "ta058_sync_multiagent_memory.sh",
+  "Path": "ta-registry/TA-058/"
+}

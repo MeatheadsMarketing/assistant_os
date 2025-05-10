@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-084",
+  "Name": "Deployment Version Pinner",
+  "Domain": "OPS",
+  "Purpose": "Pins a specific assistant version to a project or environment (staging, prod, etc).",
+  "Input": "assistant_id, pinned_version",
+  "Output": "deployment_tag.json",
+  "Trigger": "Pre-deploy",
+  "CLI_File": "ta084_pin_deployment_version.sh",
+  "Path": "ta-registry/TA-084/"
+}

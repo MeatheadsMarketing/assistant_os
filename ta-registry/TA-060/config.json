@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-060",
+  "Name": "Tool Call Explainer",
+  "Domain": "TOOL",
+  "Purpose": "Generates a natural language explanation of which tools were used and why.",
+  "Input": "tool_execution_log.json",
+  "Output": "explanation.md",
+  "Trigger": "Post-run review",
+  "CLI_File": "ta060_explain_tool_usage.sh",
+  "Path": "ta-registry/TA-060/"
+}

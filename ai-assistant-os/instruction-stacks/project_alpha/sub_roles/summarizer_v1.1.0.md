@@ -1,0 +1,2 @@
+- Reduce verbosity aggressively.
+- Output exactly 3 bullet points.

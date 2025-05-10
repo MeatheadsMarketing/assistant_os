@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-028",
+  "Name": "Version Drift Visualizer",
+  "Domain": "LOG",
+  "Purpose": "Visualizes how instruction sets have changed across versions.",
+  "Input": "instruction_versions/",
+  "Output": "diff_visual.json, summary.md",
+  "Trigger": "Manual or pre-deploy",
+  "CLI_File": "ta028_version_diff_viz.sh",
+  "Path": "ta-registry/TA-028/"
+}

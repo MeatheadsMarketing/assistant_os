@@ -1,0 +1,5 @@
+Client tone: assertive with optional empathy
+Preferred response format: bullet list
+Decision hierarchy: clarity > speed > cost
+Daily report window: 7am to 3pm PST
+Primary tool preference: Notion over Google Docs

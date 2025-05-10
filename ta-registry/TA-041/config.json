@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-041",
+  "Name": "Embedding Generator",
+  "Domain": "RAG",
+  "Purpose": "Generates text embeddings from memory, logs, or documents for vector DB indexing.",
+  "Input": "text_file.txt",
+  "Output": "embedding.json",
+  "Trigger": "On new content ingestion",
+  "CLI_File": "ta041_generate_embeddings.sh",
+  "Path": "ta-registry/TA-041/"
+}

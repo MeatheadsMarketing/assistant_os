@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-046",
+  "Name": "Chunker + Embedder",
+  "Domain": "RAG",
+  "Purpose": "Splits large files into chunks and embeds them for vector storage.",
+  "Input": "large_doc.txt",
+  "Output": "chunked_embeddings.json",
+  "Trigger": "On document ingestion",
+  "CLI_File": "ta046_chunk_and_embed.sh",
+  "Path": "ta-registry/TA-046/"
+}

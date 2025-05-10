@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-050",
+  "Name": "Context Injection Comparator",
+  "Domain": "RAG",
+  "Purpose": "Compares final assistant behavior with vs. without context injection to measure RAG effectiveness.",
+  "Input": "query.txt, result_with_context.txt, result_without_context.txt",
+  "Output": "performance_diff_score, summary",
+  "Trigger": "Test batch or eval run",
+  "CLI_File": "ta050_compare_context_injection.sh",
+  "Path": "ta-registry/TA-050/"
+}

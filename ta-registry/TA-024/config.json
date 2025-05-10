@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-024",
+  "Name": "Instruction Execution Replay",
+  "Domain": "LOG",
+  "Purpose": "Replays a full instruction + input + memory state for audit/debug.",
+  "Input": "run_id or timestamp",
+  "Output": "reconstructed_output, logs",
+  "Trigger": "Manually or on test mode",
+  "CLI_File": "ta024_replay_runner.sh",
+  "Path": "ta-registry/TA-024/"
+}

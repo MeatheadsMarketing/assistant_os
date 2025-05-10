@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-037",
+  "Name": "Top Prompt Tracker",
+  "Domain": "LOG",
+  "Purpose": "Ranks the most frequently used prompt templates and input formats.",
+  "Input": "prompt_logs/",
+  "Output": "top_prompts.json",
+  "Trigger": "Scheduled or on demand",
+  "CLI_File": "ta037_prompt_tracker.sh",
+  "Path": "ta-registry/TA-037/"
+}

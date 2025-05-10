@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-062",
+  "Name": "Self-Correction Trigger",
+  "Domain": "AUTO",
+  "Purpose": "Automatically retries or adjusts output if common quality issues or validation failures are detected.",
+  "Input": "output_verdict.json",
+  "Output": "corrected_output.txt",
+  "Trigger": "On failed assertion or drift score > threshold",
+  "CLI_File": "ta062_auto_self_correct.sh",
+  "Path": "ta-registry/TA-062/"
+}

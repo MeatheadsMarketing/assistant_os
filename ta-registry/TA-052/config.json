@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-052",
+  "Name": "Tool Call Fallback Handler",
+  "Domain": "TOOL",
+  "Purpose": "Handles failed tool calls by retrying, using alternates, or providing a fallback message.",
+  "Input": "failed_tool_log.json",
+  "Output": "recovery_action.json",
+  "Trigger": "On tool error",
+  "CLI_File": "ta052_handle_tool_fallback.sh",
+  "Path": "ta-registry/TA-052/"
+}

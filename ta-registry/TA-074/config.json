@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-074",
+  "Name": "Output Guardrail Enforcer",
+  "Domain": "SEC",
+  "Purpose": "Ensures outputs never violate defined rules (e.g., length, tone, banned terms).",
+  "Input": "assistant_output.txt, guardrail_rules.json",
+  "Output": "clean_output.txt, violations_report.json",
+  "Trigger": "Pre-log or pre-memory",
+  "CLI_File": "ta074_enforce_guardrails.sh",
+  "Path": "ta-registry/TA-074/"
+}

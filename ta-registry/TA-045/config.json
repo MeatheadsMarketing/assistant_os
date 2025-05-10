@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-045",
+  "Name": "RAG Injection Filter",
+  "Domain": "RAG",
+  "Purpose": "Filters and formats retrieved context before prompt insertion to ensure compatibility and clarity.",
+  "Input": "retrieved_context.txt",
+  "Output": "injection_ready_context.txt",
+  "Trigger": "Pre-injection",
+  "CLI_File": "ta045_filter_injection_context.sh",
+  "Path": "ta-registry/TA-045/"
+}

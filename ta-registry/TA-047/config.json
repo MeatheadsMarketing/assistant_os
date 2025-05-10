@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-047",
+  "Name": "Vector Query Router",
+  "Domain": "RAG",
+  "Purpose": "Decides which vector DB to query based on assistant role, project, or query type.",
+  "Input": "assistant_id, query.txt",
+  "Output": "target_db, query_result",
+  "Trigger": "Before retrieval",
+  "CLI_File": "ta047_route_vector_query.sh",
+  "Path": "ta-registry/TA-047/"
+}

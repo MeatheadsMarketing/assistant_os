@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-059",
+  "Name": "Agent Load Balancer",
+  "Domain": "TOOL",
+  "Purpose": "Distributes execution load across a pool of assistants based on usage, availability, or specialization.",
+  "Input": "incoming_task.json",
+  "Output": "selected_assistant",
+  "Trigger": "Real-time task assignment",
+  "CLI_File": "ta059_balance_agent_load.sh",
+  "Path": "ta-registry/TA-059/"
+}

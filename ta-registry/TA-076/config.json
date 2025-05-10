@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-076",
+  "Name": "Sensitive Keyword Blocker",
+  "Domain": "SEC",
+  "Purpose": "Redacts or blocks assistant responses containing blacklisted phrases.",
+  "Input": "assistant_output.txt, blacklist.json",
+  "Output": "cleaned_output.txt",
+  "Trigger": "Before output is shown or logged",
+  "CLI_File": "ta076_block_sensitive_keywords.sh",
+  "Path": "ta-registry/TA-076/"
+}

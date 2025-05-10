@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-032",
+  "Name": "Prompt Diff Tracker",
+  "Domain": "LOG",
+  "Purpose": "Logs and compares differences between compiled prompts over time.",
+  "Input": "compiled_prompts/",
+  "Output": "prompt_diff.json",
+  "Trigger": "After prompt generation",
+  "CLI_File": "ta032_prompt_diff_tracker.sh",
+  "Path": "ta-registry/TA-032/"
+}

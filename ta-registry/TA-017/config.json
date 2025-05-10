@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-017",
+  "Name": "Instruction Drift Sentinel",
+  "Domain": "VAL",
+  "Purpose": "Watches output for behavioral changes and flags if drift is detected against previous output baseline.",
+  "Input": "current_output.txt, historical_outputs/",
+  "Output": "drift_score, diff_summary",
+  "Trigger": "After assistant run",
+  "CLI_File": "ta017_drift_sentinel.sh",
+  "Path": "ta-registry/TA-017/"
+}

@@ -1,0 +1,6 @@
+Phase,OS Role,GPT Behavior,Frontend Exposure,System Power Unlocked,GPT's Frontend Idea
+Phase 9,Assistant Mutation Engine,"Prompt regeneration, retries, function synthesis",Regenerate / Compare buttons,Self-modifying assistants,Expose retry lineage + edit diff per regeneration
+Phase 10,Multi-Agent Simulation Lab,Simulated multi-role reasoning,Multi-turn prompt chaining via instructions,Multi-agent critique + resolution,Add turn-by-turn agent trace with judge verdicts
+Phase 11,Behavior Replay Engine,Can repeat behavior via prompt recursion,"Scrollback, but no memory or timeline",Input-memory-output-redteam timeline viewer,Expose memory/prompt stack viewer + replay
+Phase 12,Goal-Oriented Agent Director,"Receives goal, generates instructions",Hidden system prompt + user goal injection,"Design agents from outcomes, not roles",Create 'Design Assistant From Goal' UI button
+Phase 13,Threat Modeling & Risk Map,Has no native threat detection or sandboxing,None for jailbreak review or anomaly inspection,Detect risk vectors + reinforce vulnerable logic,Show warning if prompt has jailbreak pattern

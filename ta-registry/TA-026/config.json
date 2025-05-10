@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-026",
+  "Name": "Assistant Run Profiler",
+  "Domain": "LOG",
+  "Purpose": "Logs execution time, tool use, and memory call patterns for each run.",
+  "Input": "run_id",
+  "Output": "run_profile.json",
+  "Trigger": "After assistant run",
+  "CLI_File": "ta026_run_profiler.sh",
+  "Path": "ta-registry/TA-026/"
+}

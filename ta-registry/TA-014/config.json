@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-014",
+  "Name": "Output Assertion Validator",
+  "Domain": "VAL",
+  "Purpose": "Validates assistant output against structural and semantic rules before it logs or mutates memory.",
+  "Input": "assistant_output, expected_schema, banned_patterns",
+  "Output": "pass/fail flag, error report if failed",
+  "Trigger": "Post-response, pre-logging or pre-memory-update",
+  "CLI_File": "ta014_output_assertion.sh",
+  "Path": "ta-registry/TA-014/"
+}

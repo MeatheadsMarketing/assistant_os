@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-044",
+  "Name": "Semantic Lookup Validator",
+  "Domain": "RAG",
+  "Purpose": "Validates that retrieved context is relevant and not noisy or irrelevant.",
+  "Input": "query.txt, retrieved_context.txt",
+  "Output": "validation_score, verdict",
+  "Trigger": "Post-retrieval",
+  "CLI_File": "ta044_validate_lookup.sh",
+  "Path": "ta-registry/TA-044/"
+}

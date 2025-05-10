@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-021",
+  "Name": "Response Schema Validator",
+  "Domain": "VAL",
+  "Purpose": "Checks whether assistant outputs match a predefined JSON schema before use.",
+  "Input": "assistant_output.json, schema_definition.json",
+  "Output": "validation_pass/fail, list_of_errors",
+  "Trigger": "Post-assistant response",
+  "CLI_File": "ta021_schema_validator.sh",
+  "Path": "ta-registry/TA-021/"
+}

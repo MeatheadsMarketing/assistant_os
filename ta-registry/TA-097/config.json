@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-097",
+  "Name": "Behavioral Analytics Engine",
+  "Domain": "GROW",
+  "Purpose": "Analyzes patterns in assistant behavior across sessions, tasks, and prompt types.",
+  "Input": "behavior_logs/",
+  "Output": "analytics_summary.json",
+  "Trigger": "Monthly review or on request",
+  "CLI_File": "ta097_analyze_behavioral_patterns.sh",
+  "Path": "ta-registry/TA-097/"
+}

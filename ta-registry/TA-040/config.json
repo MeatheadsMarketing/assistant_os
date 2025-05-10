@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-040",
+  "Name": "Log Data Compressor",
+  "Domain": "LOG",
+  "Purpose": "Compresses and archives logs older than a threshold to maintain performance and storage efficiency.",
+  "Input": "logs_folder/",
+  "Output": "compressed_logs.tar.gz",
+  "Trigger": "Scheduled or via CLI",
+  "CLI_File": "ta040_log_compressor.sh",
+  "Path": "ta-registry/TA-040/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-023",
+  "Name": "Redaction Filter",
+  "Domain": "VAL",
+  "Purpose": "Removes or redacts sensitive fields (PII, email, salary) before logging or memory write.",
+  "Input": "assistant_output.txt, redaction_rules.json",
+  "Output": "redacted_output.txt",
+  "Trigger": "Before log/memory update",
+  "CLI_File": "ta023_redactor.sh",
+  "Path": "ta-registry/TA-023/"
+}

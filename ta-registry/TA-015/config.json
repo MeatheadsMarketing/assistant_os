@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-015",
+  "Name": "Preflight Commit Checker",
+  "Domain": "OPS",
+  "Purpose": "Runs instruction diff, schema check, and changelog verification before assistant logic is committed.",
+  "Input": "target_instruction.md, baseline_instruction.md",
+  "Output": "diff_report.md, changelog_verification_status",
+  "Trigger": "Pre-commit or pre-deploy",
+  "CLI_File": "ta015_preflight_checker.sh",
+  "Path": "ta-registry/TA-015/"
+}

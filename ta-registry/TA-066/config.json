@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-066",
+  "Name": "Agent Interrupt Handler",
+  "Domain": "AUTO",
+  "Purpose": "Gracefully stops or defers agent execution if flagged mid-run.",
+  "Input": "interruption_signal, agent_state.json",
+  "Output": "run_stopped: true/false, reason",
+  "Trigger": "On interruption or user override",
+  "CLI_File": "ta066_interrupt_agent.sh",
+  "Path": "ta-registry/TA-066/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-027",
+  "Name": "Token Heatmap Generator",
+  "Domain": "LOG",
+  "Purpose": "Breaks down token distribution across prompt, memory, tools, and output.",
+  "Input": "full_prompt.txt",
+  "Output": "heatmap.json",
+  "Trigger": "Post-prompt assembly",
+  "CLI_File": "ta027_token_heatmap.sh",
+  "Path": "ta-registry/TA-027/"
+}

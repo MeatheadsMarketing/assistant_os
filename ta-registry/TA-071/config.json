@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-071",
+  "Name": "Role-Based Instruction Loader",
+  "Domain": "SEC",
+  "Purpose": "Loads only the instructions assigned to the assistant's current role.",
+  "Input": "assistant_id, role_instruction_map.json",
+  "Output": "role_instruction.md",
+  "Trigger": "Pre-prompt generation",
+  "CLI_File": "ta071_load_role_instruction.sh",
+  "Path": "ta-registry/TA-071/"
+}

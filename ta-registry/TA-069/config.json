@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-069",
+  "Name": "Multi-Agent Loop Controller",
+  "Domain": "AUTO",
+  "Purpose": "Controls feedback loops across assistants to improve output quality or correctness.",
+  "Input": "agent_outputs.json",
+  "Output": "refined_output.json",
+  "Trigger": "On agent loop configuration",
+  "CLI_File": "ta069_control_agent_loop.sh",
+  "Path": "ta-registry/TA-069/"
+}

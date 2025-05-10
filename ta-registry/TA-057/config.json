@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-057",
+  "Name": "Role-Based Tool Access Gate",
+  "Domain": "TOOL",
+  "Purpose": "Restricts tool usage based on the assistant\u2019s assigned role and access rules.",
+  "Input": "assistant_id, requested_tool",
+  "Output": "access_granted/denied, reason",
+  "Trigger": "Before tool call",
+  "CLI_File": "ta057_gate_tool_access.sh",
+  "Path": "ta-registry/TA-057/"
+}

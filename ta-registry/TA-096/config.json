@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-096",
+  "Name": "Multi-Version Performance Tracker",
+  "Domain": "GROW",
+  "Purpose": "Compares run stats, quality, and error rate across instruction versions.",
+  "Input": "versioned_logs/",
+  "Output": "version_performance_report.json",
+  "Trigger": "Post-release analysis",
+  "CLI_File": "ta096_track_version_perf.sh",
+  "Path": "ta-registry/TA-096/"
+}

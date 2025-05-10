@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-048",
+  "Name": "Embedding Drift Analyzer",
+  "Domain": "RAG",
+  "Purpose": "Detects when embeddings diverge due to instruction changes or model updates.",
+  "Input": "embedding_v1.json, embedding_v2.json",
+  "Output": "drift_score",
+  "Trigger": "Scheduled or post-retraining",
+  "CLI_File": "ta048_analyze_embedding_drift.sh",
+  "Path": "ta-registry/TA-048/"
+}

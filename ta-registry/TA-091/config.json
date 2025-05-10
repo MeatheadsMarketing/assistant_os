@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-091",
+  "Name": "Assistant Self-Debugger",
+  "Domain": "GROW",
+  "Purpose": "Automatically identifies errors or inconsistencies in its own behavior and proposes patches.",
+  "Input": "execution_log.json, expected_behavior.json",
+  "Output": "debug_report.md, patch_suggestions.json",
+  "Trigger": "Post-run or on failure",
+  "CLI_File": "ta091_self_debugger.sh",
+  "Path": "ta-registry/TA-091/"
+}

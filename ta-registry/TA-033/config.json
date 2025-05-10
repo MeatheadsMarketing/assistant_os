@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-033",
+  "Name": "Assistant Failure Log",
+  "Domain": "LOG",
+  "Purpose": "Captures failure conditions, tool errors, or retries across assistant chains.",
+  "Input": "stderr, exit_codes",
+  "Output": "failure_log.json",
+  "Trigger": "Triggered on fail",
+  "CLI_File": "ta033_failure_logger.sh",
+  "Path": "ta-registry/TA-033/"
+}

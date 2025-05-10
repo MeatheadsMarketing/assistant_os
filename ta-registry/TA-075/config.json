@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-075",
+  "Name": "Instruction Mutation Watcher",
+  "Domain": "SEC",
+  "Purpose": "Detects unauthorized edits to instruction sets and logs modification metadata.",
+  "Input": "current_instruction.md, instruction_hash.json",
+  "Output": "mutation_alert: true/false",
+  "Trigger": "At runtime or on deploy",
+  "CLI_File": "ta075_watch_instruction_mutation.sh",
+  "Path": "ta-registry/TA-075/"
+}

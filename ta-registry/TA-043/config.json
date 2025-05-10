@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-043",
+  "Name": "Context Retriever",
+  "Domain": "RAG",
+  "Purpose": "Retrieves semantically relevant memory from vector DB based on current input.",
+  "Input": "query.txt",
+  "Output": "retrieved_context.txt",
+  "Trigger": "Before prompt assembly",
+  "CLI_File": "ta043_retrieve_context.sh",
+  "Path": "ta-registry/TA-043/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-020",
+  "Name": "Permission-Safe Memory Injector",
+  "Domain": "SEC",
+  "Purpose": "Prevents unauthorized memory keys from being injected by verifying assistant roles against access rules.",
+  "Input": "assistant_id, memory_key, access_rules.json",
+  "Output": "allowed/blocked status + reason",
+  "Trigger": "Before memory injection",
+  "CLI_File": "ta020_memory_permission_checker.sh",
+  "Path": "ta-registry/TA-020/"
+}

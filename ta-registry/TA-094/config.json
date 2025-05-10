@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-094",
+  "Name": "Feedback Scorer",
+  "Domain": "GROW",
+  "Purpose": "Scores user feedback against structured criteria to help assistants prioritize fixes.",
+  "Input": "feedback.md, scoring_criteria.json",
+  "Output": "scored_feedback.json",
+  "Trigger": "On feedback submission",
+  "CLI_File": "ta094_score_feedback.sh",
+  "Path": "ta-registry/TA-094/"
+}

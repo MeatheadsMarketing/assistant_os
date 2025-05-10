@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-090",
+  "Name": "Auto-Publish Assistant Docs",
+  "Domain": "OPS",
+  "Purpose": "Publishes README-style summaries of assistants, roles, capabilities, and known limitations.",
+  "Input": "instruction.md, changelog.md",
+  "Output": "assistant_doc.md",
+  "Trigger": "Weekly or post-merge",
+  "CLI_File": "ta090_generate_assistant_docs.sh",
+  "Path": "ta-registry/TA-090/"
+}

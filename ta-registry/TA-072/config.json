@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-072",
+  "Name": "Assistant Scope Limiter",
+  "Domain": "SEC",
+  "Purpose": "Blocks assistants from accessing data or tools outside their authorized project or domain.",
+  "Input": "assistant_id, requested_scope",
+  "Output": "allowed/denied",
+  "Trigger": "Before task execution",
+  "CLI_File": "ta072_limit_scope.sh",
+  "Path": "ta-registry/TA-072/"
+}

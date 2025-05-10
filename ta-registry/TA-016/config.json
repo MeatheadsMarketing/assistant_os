@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-016",
+  "Name": "Auto-Changelog Generator",
+  "Domain": "OPS",
+  "Purpose": "Auto-generates changelog entries based on diff between instruction versions.",
+  "Input": "old_version.md, new_version.md",
+  "Output": "changelog_entry.md",
+  "Trigger": "Version change detected",
+  "CLI_File": "ta016_changelog_generator.sh",
+  "Path": "ta-registry/TA-016/"
+}

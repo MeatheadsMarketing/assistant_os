@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-035",
+  "Name": "Instruction Usage Heatmap",
+  "Domain": "LOG",
+  "Purpose": "Visualizes usage density of different instructions across time, roles, or projects.",
+  "Input": "execution_logs/",
+  "Output": "heatmap.json, heatmap.svg",
+  "Trigger": "Daily aggregation or on demand",
+  "CLI_File": "ta035_instruction_heatmap.sh",
+  "Path": "ta-registry/TA-035/"
+}

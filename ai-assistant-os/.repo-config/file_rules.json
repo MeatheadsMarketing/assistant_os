@@ -1,0 +1,7 @@
+{
+  "required_folders": [
+    "instruction-stacks/{project}/sub_roles/",
+    "instruction-stacks/{project}/history/",
+    "assistant-logs/{project}/{assistant}/"
+  ]
+}

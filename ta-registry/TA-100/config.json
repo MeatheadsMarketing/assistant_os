@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-100",
+  "Name": "Auto-Evolution Engine",
+  "Domain": "GROW",
+  "Purpose": "Periodically proposes or executes assistant improvements based on data, rules, or usage patterns.",
+  "Input": "performance_data.json, update_rules.json",
+  "Output": "proposed_updates.json, changelog_patch.md",
+  "Trigger": "Monthly or triggered by TA-092",
+  "CLI_File": "ta100_run_auto_evolve.sh",
+  "Path": "ta-registry/TA-100/"
+}

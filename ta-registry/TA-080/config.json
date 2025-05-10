@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-080",
+  "Name": "Role Boundary Enforcer",
+  "Domain": "SEC",
+  "Purpose": "Prevents role contamination by enforcing scoped logic boundaries.",
+  "Input": "compiled_prompt.txt, role_scope_map.json",
+  "Output": "scope_violated: true/false",
+  "Trigger": "Pre-execution",
+  "CLI_File": "ta080_enforce_role_boundaries.sh",
+  "Path": "ta-registry/TA-080/"
+}

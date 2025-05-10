@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-031",
+  "Name": "Instruction Usage Tracker",
+  "Domain": "LOG",
+  "Purpose": "Tracks which instruction versions are used most frequently across assistant runs.",
+  "Input": "execution_logs/",
+  "Output": "usage_summary.json",
+  "Trigger": "Scheduled or post-run aggregation",
+  "CLI_File": "ta031_usage_tracker.sh",
+  "Path": "ta-registry/TA-031/"
+}

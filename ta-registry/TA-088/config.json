@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-088",
+  "Name": "Instruction Merge Tool",
+  "Domain": "OPS",
+  "Purpose": "Smartly merges two instruction files and highlights conflicting logic blocks.",
+  "Input": "file_A.md, file_B.md",
+  "Output": "merged_output.md, conflict_report.json",
+  "Trigger": "During assistant collab or branch merge",
+  "CLI_File": "ta088_merge_instruction_files.sh",
+  "Path": "ta-registry/TA-088/"
+}

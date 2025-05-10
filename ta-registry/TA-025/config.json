@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-025",
+  "Name": "Run Consistency Comparator",
+  "Domain": "VAL",
+  "Purpose": "Compares outputs from multiple runs with same input to detect inconsistency or drift.",
+  "Input": "input.txt, list_of_outputs/",
+  "Output": "drift_score, inconsistencies_found",
+  "Trigger": "After test batch runs",
+  "CLI_File": "ta025_output_consistency.sh",
+  "Path": "ta-registry/TA-025/"
+}

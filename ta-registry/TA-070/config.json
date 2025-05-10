@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-070",
+  "Name": "Self-Evaluation Summary Generator",
+  "Domain": "AUTO",
+  "Purpose": "Creates a report of how the assistant judged its own performance across runs.",
+  "Input": "reflection_logs/",
+  "Output": "self_eval_report.md",
+  "Trigger": "Weekly or post-batch",
+  "CLI_File": "ta070_generate_self_eval.sh",
+  "Path": "ta-registry/TA-070/"
+}

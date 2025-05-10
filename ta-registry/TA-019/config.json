@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-019",
+  "Name": "Memory Access Auditor",
+  "Domain": "LOG",
+  "Purpose": "Tracks what memory keys are accessed, when, and by which assistant for traceability and debugging.",
+  "Input": "assistant_id, memory_keys_accessed",
+  "Output": "memory_access_log.json",
+  "Trigger": "During memory read phase",
+  "CLI_File": "ta019_memory_auditor.sh",
+  "Path": "ta-registry/TA-019/"
+}

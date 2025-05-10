@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-053",
+  "Name": "Multi-Agent Task Dispatcher",
+  "Domain": "TOOL",
+  "Purpose": "Distributes subtasks across multiple assistants and aggregates the results.",
+  "Input": "task_bundle.json",
+  "Output": "merged_response.json",
+  "Trigger": "On multi-assistant trigger",
+  "CLI_File": "ta053_dispatch_tasks_multiagent.sh",
+  "Path": "ta-registry/TA-053/"
+}

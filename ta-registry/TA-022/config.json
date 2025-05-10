@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-022",
+  "Name": "Token Budget Enforcer",
+  "Domain": "VAL",
+  "Purpose": "Enforces max token usage on output and prevents overlength responses.",
+  "Input": "assistant_output.txt, token_limit",
+  "Output": "status, token_count",
+  "Trigger": "After response, before logging",
+  "CLI_File": "ta022_token_enforcer.sh",
+  "Path": "ta-registry/TA-022/"
+}

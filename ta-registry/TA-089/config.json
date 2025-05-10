@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-089",
+  "Name": "Live Instruction Version Tracker",
+  "Domain": "OPS",
+  "Purpose": "Displays which version of each assistant is active in each environment.",
+  "Input": "version_map.json",
+  "Output": "status_report.md",
+  "Trigger": "Live panel or CLI request",
+  "CLI_File": "ta089_show_active_versions.sh",
+  "Path": "ta-registry/TA-089/"
+}

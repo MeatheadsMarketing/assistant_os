@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-092",
+  "Name": "Learning Loop Builder",
+  "Domain": "GROW",
+  "Purpose": "Generates improvement tasks for the assistant based on recent failures or underperformance.",
+  "Input": "run_failures.json, user_feedback.md",
+  "Output": "improvement_tasks.json",
+  "Trigger": "Weekly or batch-end",
+  "CLI_File": "ta092_build_learning_loop.sh",
+  "Path": "ta-registry/TA-092/"
+}

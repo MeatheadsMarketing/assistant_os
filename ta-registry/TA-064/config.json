@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-064",
+  "Name": "Role-Chain Planner",
+  "Domain": "AUTO",
+  "Purpose": "Plans a sequence of assistant roles for multi-stage reasoning and coordination.",
+  "Input": "goal.txt, role_capabilities.json",
+  "Output": "execution_plan.json",
+  "Trigger": "On high-complexity input",
+  "CLI_File": "ta064_plan_role_chain.sh",
+  "Path": "ta-registry/TA-064/"
+}

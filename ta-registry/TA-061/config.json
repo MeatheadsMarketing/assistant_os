@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-061",
+  "Name": "Self-Reflection Engine",
+  "Domain": "AUTO",
+  "Purpose": "Prompts an assistant to critique and improve its last output before finalizing response.",
+  "Input": "assistant_output.txt, quality_criteria.json",
+  "Output": "revised_output.txt, reflection_notes.md",
+  "Trigger": "Pre-log or post-gen",
+  "CLI_File": "ta061_self_reflection.sh",
+  "Path": "ta-registry/TA-061/"
+}

@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-029",
+  "Name": "Log Summarizer",
+  "Domain": "LOG",
+  "Purpose": "Summarizes assistant logs by week, frequency, drift issues, tool use, and top inputs.",
+  "Input": "logs_folder/",
+  "Output": "summary_report.md",
+  "Trigger": "Scheduled or on demand",
+  "CLI_File": "ta029_log_summarizer.sh",
+  "Path": "ta-registry/TA-029/"
+}

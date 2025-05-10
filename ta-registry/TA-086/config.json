@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-086",
+  "Name": "Assistant Sync Monitor",
+  "Domain": "OPS",
+  "Purpose": "Checks for outdated instruction stacks or logs across assistants and triggers update jobs.",
+  "Input": "instruction_versions.json, last_run_versions/",
+  "Output": "sync_required: true/false",
+  "Trigger": "Daily check or CI",
+  "CLI_File": "ta086_check_sync_status.sh",
+  "Path": "ta-registry/TA-086/"
+}

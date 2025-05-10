@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-018",
+  "Name": "Tool Invocation Logger",
+  "Domain": "LOG",
+  "Purpose": "Logs every external tool call (function, plugin, API) for auditing and traceability.",
+  "Input": "tool_name, input_args, response_payload",
+  "Output": "tool_log.json",
+  "Trigger": "Every time a tool is used",
+  "CLI_File": "ta018_tool_logger.sh",
+  "Path": "ta-registry/TA-018/"
+}

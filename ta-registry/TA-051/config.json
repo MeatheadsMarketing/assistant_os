@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-051",
+  "Name": "Function Call Router",
+  "Domain": "TOOL",
+  "Purpose": "Routes incoming queries to the correct function or tool based on role, intent, or input type.",
+  "Input": "query.txt, tool_registry.json",
+  "Output": "selected_tool, call_payload",
+  "Trigger": "Pre-tool invocation",
+  "CLI_File": "ta051_route_function_call.sh",
+  "Path": "ta-registry/TA-051/"
+}

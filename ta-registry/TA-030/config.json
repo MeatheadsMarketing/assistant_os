@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-030",
+  "Name": "Anomaly Detector",
+  "Domain": "VAL",
+  "Purpose": "Detects unexpected patterns, hallucinations, or dangerous output in assistant responses.",
+  "Input": "assistant_output.txt, known_good_patterns/",
+  "Output": "anomaly_score, flagged_lines",
+  "Trigger": "Post-run or batch-check",
+  "CLI_File": "ta030_anomaly_detector.sh",
+  "Path": "ta-registry/TA-030/"
+}

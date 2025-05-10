@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-082",
+  "Name": "Instruction Commit Gatekeeper",
+  "Domain": "OPS",
+  "Purpose": "Enforces that no instruction can be committed without changelog diff, hash verification, and validation.",
+  "Input": "instruction.md, changelog.md",
+  "Output": "commit_allowed: true/false, reason",
+  "Trigger": "Git pre-commit hook",
+  "CLI_File": "ta082_gate_commit_instruction.sh",
+  "Path": "ta-registry/TA-082/"
+}

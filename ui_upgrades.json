@@ -1,0 +1,37 @@
+{
+  "Phase 1": {
+    "TA-001": "Add synchronized 2-column diff viewer",
+    "TA-002": "Add 'Auto-detect instruction type' toggle",
+    "TA-003": "Add sidebar 'view recent version log' panel"
+  },
+  "Phase 2": {
+    "TA-004": "Dropdown to compare memory.json across TAs",
+    "TA-005": "Add 'lock memory' toggle to freeze state",
+    "TA-009": "Render log file growth as sparkline chart"
+  },
+  "Phase 3": {
+    "TA-012": "Add filter: only show fact lines with ':' delimiter",
+    "TA-013": "Tooltip guidance: 'Facts must be key:value'",
+    "TA-014": "Add 'queue history viewer' to replay injected facts"
+  },
+  "Phase 4": {
+    "TA-021": "Show schema validation as color-coded bar segments",
+    "TA-022": "Add 'Strict Mode' toggle",
+    "TA-024": "Save validation errors to validation_log.json"
+  },
+  "Phase 5": {
+    "TA-027": "Render token heatmap with hoverable bar chart",
+    "TA-048": "Add embedding similarity bar + diff chart",
+    "TA-049": "Snapshot diff viewer for vector logs"
+  },
+  "Phase 6": {
+    "TA-067": "Confidence slider to modulate warning sensitivity",
+    "TA-068": "Add 'Dry Run' delegation toggle",
+    "TA-069": "Render loop execution path history tree"
+  },
+  "Phase 7": {
+    "TA-084": "Treeview of assistant folders with pinned version tags",
+    "TA-095": "Chart: Evolution by version drift or age",
+    "TA-100": "Add 'Let AI Suggest Upgrade' mock button"
+  }
+}

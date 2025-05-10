@@ -1,0 +1,11 @@
+{
+  "TA_ID": "TA-034",
+  "Name": "Memory Key Frequency Analyzer",
+  "Domain": "LOG",
+  "Purpose": "Counts how often specific memory keys are referenced during assistant runs.",
+  "Input": "memory_access_logs/",
+  "Output": "key_usage_report.json",
+  "Trigger": "Post-run batch",
+  "CLI_File": "ta034_memory_key_frequency.sh",
+  "Path": "ta-registry/TA-034/"
+}
